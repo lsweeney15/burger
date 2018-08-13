@@ -1,0 +1,75 @@
+html {
+    background-color: #ec992f;
+}
+
+body {
+    width: 75%;
+   margin: 0 auto; 
+   display: flex;
+   min-height: 100vh;
+   flex-direction: column;
+   background-color: white;
+   border: #853e00 solid 1px;
+}
+
+#chef-burger {
+    display: block;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    color: #dd221d;
+    font-family: 'Fontdiner Swanky', cursive;
+    font-size: 70px;
+    margin: 10px;
+}
+
+p {
+    text-align: center;
+    color: #dd221d;
+    font-family: 'Fontdiner Swanky', cursive;
+    font-size:20px;
+}
+
+#col-header {
+    text-align: center;
+    color: #468fb8;
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.btn-default {
+    background-color:#5f9d14;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.input.form-control {
+    text-align: center;
+    color: red;
+}
+
+.btn-default:hover {
+    background-color:#518612;
+    color:#ec992f;
+    font-size: 18px;
+}
+
+#text-enter-button {
+    background-color:#dd221d;
+    font-family: 'Anton', sans-serif;
+}
+
+#text-enter-button:hover {
+    background-color:#ad0600;
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Fontdiner Swanky', cursive;
+    font-size: 40px;
+    margin: 50px;
+}
