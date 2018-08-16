@@ -22,4 +22,12 @@ router.post('/burgers/create', function(req,res){
     })
 })
 
+router.delete('/burgers/delete', function(req, res){
+    connection.query("DELETE FROM burgers WHERE id = ?;", [req.body.id], function
+    (err, results){
+        if (err) throw err;
+        res.redirect('/');
+    })
+})
+
 module.exports = router;

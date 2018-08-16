@@ -42,6 +42,7 @@ p {
 
 .btn-default {
     background-color:#5f9d14;
+    align-items: center;
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
