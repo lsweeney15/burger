@@ -3,7 +3,7 @@
 
 This repository is for the week 14 homework assignment for University of Miami Coding Bootcamp. 
 
-This restaurant application demonstrates a simple full stack application with a frontend built using HTML, CSS, Handlebars and Bootstrap and a backend implemented with Node.js, MySQL and Express. 
+This restaurant application demonstrates a simple full stack application with a front end built using HTML, CSS, Handlebars and Bootstrap and a back end implemented with Node.js, MySQL and Express. 
 
 ## How to Play:
 1. Whenever a user submits a burger's name, the app will display the burger on the left side of the page - waiting to be devoured. This also adds the new burger entry into the MySQL database. 
